@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chazel | Official Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero-home {
+            /* EDITABLE: Hero Background Image */
+            background-image: url('images/chazel_hero_img.jpg');
+        }
+    </style>
+</head>
+<body>
+
+    <!-- FIXED NAVBAR -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">CHA<span>ZEL</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="partnership.html">Partnership</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <!-- Hamburger menu button, only visible on small screens (see style.css).
+                 Clicking it toggles the .active class on .nav-links via script.js -->
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero hero-home">
+            <div class="hero-content">
+                <p class="eyebrow">Burundian Memelord</p>
+                <h1>CHAZEL makes<br>the internet laugh.</h1>
+                <a href="#social" class="btn-primary">Watch Latest</a>
+            </div>
+        </section>
+
+        <!-- SOCIAL MEDIA SECTION -->
+        <section id="social" class="container" style="padding-top: 50px;">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto 50px;">
+                <span class="sticker">Follow the chaos 🔥</span>
+                <h2 style="font-size: 2.5rem; margin: 20px 0 15px;">Connect With Me</h2>
+                <p style="color: var(--text-muted);">Fresh memes, skits, and daily content across every platform.</p>
+            </div>
+
+            <div class="social-grid">
+                <!-- FACEBOOK -->
+                <a href="https://www.facebook.com/Chazel29.5/" target="_blank" class="social-card">
+                    <img src="images/facebook.png" alt="Facebook">
+                    <h3>Facebook</h3>
+                    <span class="counter">414K</span>
+                    <p style="font-size: 0.8rem; color: var(--text-muted);">Followers</p>
+                </a>
+
+                <!-- INSTAGRAM -->
+                <a href="https://www.instagram.com/chazel_memes/" target="_blank" class="social-card">
+                    <img src="images/instagram.png" alt="Instagram">
+                    <h3>Instagram</h3>
+                    <span class="counter">7,094</span>
+                    <p style="font-size: 0.8rem; color: var(--text-muted);">Followers</p>
+                </a>
+
+                <!-- TIKTOK -->
+                <a href="https://www.tiktok.com/@chazel_memelord?lang=en" target="_blank" class="social-card">
+                    <img src="images/tiktok.png" alt="TikTok">
+                    <h3>TikTok</h3>
+                    <span class="counter">50.1K</span>
+                    <p style="font-size: 0.8rem; color: var(--text-muted);">Followers · 465K Likes</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <h3 style="margin-bottom: 20px;">CHAZEL</h3>
+            <p style="max-width: 500px; margin: 0 auto 30px; color: var(--text-muted);">
+                Official page of Iradukunda Chalom — Burundian memelord and content creator. New memes, new chaos, every week.
+            </p>
+            <p>Powered by <a href="https://hppeter.vercel.app/" class="studio-link" target="_blank">HP PETER TECH STUDIO</a></p>
+            
+            <div class="copyright">
+                &copy; 2026 Chazel. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
