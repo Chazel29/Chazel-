@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaboration | Chazel</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero-collaboration {
+            /* EDITABLE: Collaboration Background */
+            background-image: url('images/collaboration.png');
+        }
+        .collab-intro-box {
+            background: var(--purple-dark);
+            color: white;
+            padding: 70px 40px;
+            border-radius: var(--border-radius);
+            margin-top: -80px;
+            position: relative;
+            z-index: 10;
+            border: 3px solid var(--purple-dark);
+            text-align: center;
+        }
+        .collab-card {
+            background: var(--white);
+            border: 3px solid var(--purple-dark);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            box-shadow: 6px 6px 0 rgba(23, 15, 39, 0.9);
+            transition: var(--transition);
+            height: 100%;
+        }
+        .collab-card:hover {
+            transform: translate(-4px, -4px);
+            box-shadow: 10px 10px 0 var(--pink-hot);
+        }
+        .collab-icon {
+            font-size: 1.8rem;
+            margin-bottom: 12px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">CHA<span>ZEL</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="collaboration.html" class="active">Collaboration</a>
+                <a href="partnership.html">Partnership</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">&#9776;</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero hero-collaboration">
+            <div class="hero-content">
+                <p class="eyebrow">Let's Create Together</p>
+                <h1>Collaboration</h1>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="collab-intro-box">
+                <span class="sticker teal" style="margin-bottom: 20px;">Open For Collabs 🤝</span>
+                <p style="max-width: 700px; margin: 20px auto 0; font-size: 1.1rem; color: var(--bg-cream);">
+                    Chazel Memelord is available for collaborations with brands, businesses, and organizations looking to connect with audiences through creative and engaging digital content.
+                </p>
+            </div>
+        </section>
+
+        <section class="container" style="padding-top: 0;">
+            <div style="text-align: center; margin-bottom: 50px;">
+                <h2 style="font-size: 2.3rem;">Areas of Collaboration</h2>
+            </div>
+
+            <div class="collab-grid">
+                <div class="collab-card">
+                    <span class="collab-icon">📢</span>
+                    <h4 style="margin-bottom: 10px;">Brand Promotion</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Promoting products and services through entertaining content.</p>
+                </div>
+                <div class="collab-card">
+                    <span class="collab-icon">🎬</span>
+                    <h4 style="margin-bottom: 10px;">Sponsored Content</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Creating custom content tailored to specific campaigns.</p>
+                </div>
+                <div class="collab-card">
+                    <span class="collab-icon">📱</span>
+                    <h4 style="margin-bottom: 10px;">Social Media Campaigns</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Helping brands increase visibility and audience engagement.</p>
+                </div>
+                <div class="collab-card">
+                    <span class="collab-icon">💡</span>
+                    <h4 style="margin-bottom: 10px;">Creative Partnerships</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Working on unique digital projects and creative campaigns.</p>
+                </div>
+                <div class="collab-card">
+                    <span class="collab-icon">🎥</span>
+                    <h4 style="margin-bottom: 10px;">Video Marketing</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Using entertaining content to deliver impactful brand messages.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div style="background: var(--white); border: 3px solid var(--purple-dark); padding: 50px; border-radius: var(--border-radius); box-shadow: var(--shadow-soft); text-align: center;">
+                <p style="font-size: 1.1rem; color: var(--text-main); max-width: 700px; margin: 0 auto;">
+                    With a growing online community and a creative approach to digital entertainment, Chazel Memelord focuses on creating authentic content that connects naturally with audiences while delivering value to partners and collaborators.
+                </p>
+                <div style="text-align: center; margin-top: 30px;">
+                    <a href="contact.html" class="btn-primary">Start a Collaboration</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h3 style="margin-bottom: 20px;">CHAZEL</h3>
+            <p>Developed by <a href="https://hppeter.vercel.app/" class="studio-link" target="_blank">HP PETER TECH STUDIO</a></p>
+            <div class="copyright">&copy; 2026 Chazel. All Rights Reserved.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
